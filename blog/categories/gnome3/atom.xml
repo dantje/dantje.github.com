@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[random notes]]></title>
-  <link href="http://dantje.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: gnome3 | random notes]]></title>
+  <link href="http://dantje.github.com/blog/categories/gnome3/atom.xml" rel="self"/>
   <link href="http://dantje.github.com/"/>
   <updated>2012-11-04T21:27:50+01:00</updated>
   <id>http://dantje.github.com/</id>
@@ -21,31 +21,28 @@
     <content type="html"><![CDATA[<p><img class="left" src="images/cinnamon.jpg" title="Cinnamon Swirls by Whirling Phoenix, on flickr.com, by-nc-nd 2.0" ></p>
 
 <p>After toying around with gnome 3 for two ubuntu releases to
-avoid unity, I finally decided that it just wasn&#8217;t what I
+avoid unity, I finally decided that it just wasn't what I
 wanted from an desktop environment. I tried several other
 options, and finally settled on <a href="http://cinnamon.linuxmint.com/">Cinnamon</a>.</p>
 
-<p>Technically, I&#8217;m still running gnome 3 but using Cinnamon
-it doesn&#8217;t feel like a such radicial depature from my old
+<p>Technically, I'm still running gnome 3 but using Cinnamon
+it doesn't feel like a such radicial depature from my old
 gnome 2 setup, that I grew to like over the years.</p>
 
 <p>There is a nice ppa for Cinnamon, so it can easily be added
 to a stock ubuntu install:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
-</span><span class='line'>sudo apt-get update
-</span><span class='line'>sudo apt-get install cinnamon</span></code></pre></td></tr></table></div></figure>
-
-
-<p>I observed two small papercuts with the version I&#8217;m currently running
+<p><code>
+sudo add-apt-repository ppa:gwendal-lebihan-dev/cinnamon-stable
+sudo apt-get update
+sudo apt-get install cinnamon
+</code>
+I observed two small papercuts with the version I'm currently running
 (1.6.4-0ubuntu1~quantal1):</p>
 
 <ul>
 <li><p>When the desktops effects were still enabled (Menu/Cinnamon Settings/Effects)
-chromiums&#8217;s window sometimes hadn&#8217;t the correct size upon first start.</p></li>
+chromiums's window sometimes hadn't the correct size upon first start.</p></li>
 <li><p>Also there is a small, but noticable and irritating, delay when opening the menu.</p></li>
 </ul>
 
